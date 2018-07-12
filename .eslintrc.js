@@ -23,6 +23,6 @@ module.exports = {
             "error",
             "always"
         ],
-        "no-console": "error"
+        "no-console": "off"
     }
 };
