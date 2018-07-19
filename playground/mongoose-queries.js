@@ -1,7 +1,7 @@
 const { mongoose } = require('./../server/db/mongoose');
 const { User } = require('./../server/models/user');
 
-var id = '5b473ecb5c5407ac083b6691';
+let id = '5b473ecb5c5407ac083b6691';
 
 User.findById(id).then((user) => {
 	if(!user){
